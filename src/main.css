@@ -1,0 +1,393 @@
+html{
+    scroll-behavior: smooth;
+}
+#progress{
+
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#progress-value{
+    height: calc(100% - 5px);
+    width: calc(100% - 6px);
+    background-color: white;
+
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: cadetblue;
+}
+.arrow{
+    height: 30px;
+    width: 30px;
+}
+.button{
+    width: 180px;
+    color: cadetblue;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgba(255,255,255);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.button:hover{
+    font-size: 15px;
+    color: cadetblue;
+    transition: 0.5s ease;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+
+}
+
+.container{
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
+    height: 650px;
+    background-size: 2000px;
+    padding: 0px 30px;
+    margin: 0px auto;
+    
+}
+
+/*HEADER*/
+.header{
+    /*padding-top: 46px;*/
+    background-color: #F1F1F1;
+
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+    padding-right: 20px;
+}
+
+.logo{
+    pointer-events: none;
+    position: relative;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    /*padding-right: 12px;
+    padding-bottom: 3px;*/
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.nav-button{
+    margin-top: -10px;
+    display: none;
+
+}
+
+.nav-link{
+    color: white;
+
+}
+
+/*header-content*/
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+}
+
+.header-content{
+    padding-left: 50px;
+    max-width: 500px;
+    margin-top: 120px;
+    color: white;
+
+}
+
+.header-heading{
+    margin-top: 20px;
+    font-weight:600 ;
+    font-size: 44px;
+}
+
+.header-content p{
+    line-height: 2;
+}
+
+/*CARD SLIDE*/
+.card-slideshow{
+  position: relative;
+
+
+}
+.card{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -550px;
+    opacity: 0;
+
+}
+.indikatorenliste{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    list-style-type: none;
+    font-size: 40px;
+    display: flex;
+    margin-left: -295px;
+    padding: 0;
+}
+.indikator{
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.aktiv{
+    opacity: 1;
+    margin-top: 0px;
+}
+.pfeil{
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    user-select: none;
+    cursor: pointer;
+}
+.pfeil:hover{
+    opacity: 1;
+    transition: 0.9ms ease;
+}
+.pfeil-links{
+    margin-left: -530px;
+    margin-top: 200px;
+}
+.pfeil-rechts{
+    margin-right: 10px;
+    margin-top: 200px;
+}
+.first{
+    background-image: url("images/pic-1.png");
+    background-size: cover;
+    color: white;
+    padding: 20rem 0 0;
+    width: 600px;
+    border-radius: 17px;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.second{
+    background-image: url("images/pic-2.png");
+    background-size: cover;
+    color: white;
+    padding: 20rem 0 0;
+    width: 600px;
+    border-radius: 17px;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+.third{
+    background-image: url("images/pic-3.png");
+    background-size: cover;
+    color: white;
+    padding: 20rem 0 0;
+    width: 600px;
+    border-radius: 17px;
+    overflow: hidden;
+    transition: transform 500ms ease;
+}
+
+
+.card:hover{
+    transform: scale(1.05);
+}
+.card-content{
+    --padding: 1.5rem;
+    padding: var(--padding);
+    background: linear-gradient(hsl(0 0% 0% / 0),hsl(0 0% 0% / 0.3) 20%, hsl(0 0% 0% / 1));
+    transform: translateY(46%);
+    transition: transform 500ms ease;
+}
+.card-content > *:not(.card-titel){
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+.card:hover .card-content{
+    transform: translateY(0);
+}
+.card:hover .card-content > *{
+    opacity: 1;
+}
+.card-titel{
+    font-size: 40px;
+    position: relative;
+    width: max-content;
+}
+.card-titel::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: calc(var(--padding) * -1);
+    bottom: 0;
+    width: calc(100% + var(--padding));
+    background: white;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 500ms ease;
+
+}
+.card:hover .card-titel::after{
+    transform: scaleX(1);
+}
+.card-button{
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5em 1.25em;
+
+}
+.card-button:hover,
+.card-button:focus{
+    background-color: rgba(0,0,0,0);
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/* Reset and base styles  */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    /*outline: none;*/
+}
+
+a:focus,
+a:active {
+    /* outline: none;*/
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    /* color: inherit; */
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+a:hover  {
+    /* color: inherit; */
+    opacity: 0.3;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul, ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form */
+
+input, textarea, button, select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+.nav-link:hover{
+    font-color: #5f9ea0;
+}
