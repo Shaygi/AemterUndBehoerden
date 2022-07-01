@@ -1,4 +1,10 @@
 @media(max-width: 1230px){
+    .madeby{
+        margin-left: 200px;
+    }
+    .plakatbutton{
+        margin-left:200px;
+    }
     .logo{
         width: 75px;
         margin-top: -30px;
@@ -98,5 +104,11 @@
     }
     .card:hover .card-content{
         transform: translateY(-80%);
+    }
+    .madeby{
+        margin-left: 100px;
+    }
+    .plakatbutton{
+        margin-left:130px;
     }
 }

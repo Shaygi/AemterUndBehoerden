@@ -3,13 +3,25 @@ html{
 }
 .logo{
     position: relative;
-    width: 150px;
+    width: 120px;
     height: auto;
     left: 0;
-    margin-top: -20px;
+    top: 20px;
+
+}
+.madeby{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+    margin-left: 625px;
+    color: white;
 }
 .info{
     margin-top: 30px;
+}
+.plakatbutton{
+    margin-left: 650px;
 }
 #progress{
 
@@ -61,11 +73,14 @@ body{
     font-size: 14px;
 
 }
-
+footer{
+    height: 150px;
+    background-color: #272e34;
+}
 .container{
 
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
-    height: 650px;
+    height: 670px;
     background-size: 2000px;
     padding: 0px 30px;
     margin: 0px auto;
@@ -76,7 +91,7 @@ body{
 .header{
     /*padding-top: 46px;*/
     background-color: #F1F1F1;
-
+    margin-top: -50px;
 
 }
 
@@ -110,7 +125,6 @@ body{
 }
 
 .nav-button{
-    margin-top: -10px;
     display: none;
 
 }
@@ -181,6 +195,7 @@ body{
 .aktiv{
     opacity: 1;
     margin-top: 0px;
+
 }
 .pfeil{
     color: white;
