@@ -16,6 +16,8 @@
        display: block;
     }
 
+
+
     .nav.open .nav-list{
         position: fixed;
         top:0;
