@@ -12,20 +12,10 @@ html{
     top: 20px;
 
 }
-.madeby{
-    position: relative;
-    font-family: 'Poppins', sans-serif;
-    font-size: medium;
-    padding-top: 20px;
-    margin-left: 625px;
-    color: white;
-}
 .info{
     margin-top: 30px;
 }
-.plakatbutton{
-    margin-left: 650px;
-}
+
 #progress{
 
     position: fixed;
@@ -77,9 +67,25 @@ body{
 
 }
 footer{
-    height: 150px;
+    height: auto;
+    width: 100vw;
     background-color: #31150C;
+
 }
+.madeby{
+    color: white;
+}
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 .container{
 
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);

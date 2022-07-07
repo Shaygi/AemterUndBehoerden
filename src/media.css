@@ -1,10 +1,5 @@
 @media(max-width: 1230px){
-    .madeby{
-        margin-left: 200px;
-    }
-    .plakatbutton{
-        margin-left:200px;
-    }
+
     .logo{
         width: 75px;
         margin-top: -30px;
@@ -80,7 +75,8 @@
         line-height: 1.3;
     }
     .card-slideshow{
-        margin-left: 550px;
+        /*margin-left: 550px;*/
+        position: relative;
     }
     .first, .second, .third{
         width: 400px;
@@ -108,10 +104,5 @@
     .card:hover .card-content{
         transform: translateY(-55%);
     }
-    .madeby{
-        margin-left: 100px;
-    }
-    .plakatbutton{
-        margin-left:130px;
-    }
+
 }

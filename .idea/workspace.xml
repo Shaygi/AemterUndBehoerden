@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7ed2495d-77aa-4715-899b-cea562a09820" name="Changes" comment="neu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/info2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/infoblau.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/infobunt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/infobunt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,22 +24,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shiri/IdeaProjects/AemterUndBehoerden/src/images&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\shiri\IdeaProjects\AemterUndBehoerden\src\images" />
       <recent name="C:\Users\shiri\IdeaProjects\AemterUndBehoerden\src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/AemterUndBehoerden/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +64,7 @@
       <workItem from="1656942191049" duration="49000" />
       <workItem from="1656961026257" duration="437000" />
       <workItem from="1657023990825" duration="274000" />
+      <workItem from="1657192310678" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="neu">
       <created>1656606623134</created>
