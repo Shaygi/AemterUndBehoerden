@@ -59,7 +59,17 @@ html{
     color: cadetblue;
     transition: 0.5s ease;
 }
+.nav-list.sprachen{
 
+}
+.sprachen{
+    display: flex;
+    position:relative;
+    left: 750px;
+    column-gap: 20px;
+    text-align: right;
+    font-size: 14px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: black;

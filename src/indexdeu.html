@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ämter & Behörden</title>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@100&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+<header class="header">
+
+    <div class="container">
+        <!--Header nav -->
+        <div class="header-nav">
+            <img class="logo" src="images/logo.png" alt="logo">
+
+
+
+            <nav id="nav" class="nav open">
+                <ul class="sprachen">
+                    <li class="nav-item"><a href="index.html" class="nav-link">UKR</a></li>
+                    <li class="nav-item"><a href="indexrus.html" class="nav-link">RUS</a></li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Formulare</a></li>
+                    <li class="nav-item"><a href="https://termin.bremen.de/termine/select2?md=50&lang=ua_UA" class="nav-link">Terminvereinbarung</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Programme</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Beratung</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Telefonbuch</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+                </ul>
+
+                <button id="nav-btn" class="nav-button">
+                    <img id="nav-btn-img" src="images/nav-open.svg" alt="Nav button">
+                </button>
+            </nav>
+        </div>
+
+
+        <!--Header content -->
+        <div class="header-row">
+            <div class ="header-content">
+                <h1 class ="header-heading">Willkommen!</h1>
+                <p >Hier finden Sie Informationen zu Ämtern und Behörden in Bremen.</p>
+                <button class="button" type="button"><a href="https://www.google.com/maps/d/embed?mid=1ssJFDO0nSvmtCTCqISL792GdyZB0EQQ&ehbc=2E312F">Karte</a></button>
+            </div>
+
+
+            <div class="card-slideshow">
+                <div class="card">
+                    <div class="first">
+                        <div class="card-content">
+                            <h1 class="card-titel">JobCenter</h1>
+                            <p class="card-body">  </p>
+                            <a href="https://www.jobcenter-bremen.de/ukraine/ukrainisch/" class="card-button">Zur Weibseite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="second">
+                        <div class="card-content">
+                            <h1 class="card-titel">Migrationsamt</h1>
+                            <p class="card-body">  </p>
+                            <a href="https://www.service.bremen.de/sixcms/detail.php?gsid=bremen128.c.1428986.de" class="card-button">Zur Weibseite</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="third">
+                        <div class="card-content">
+                            <h1 class="card-titel">Sozialamt</h1>
+                            <p class="card-body">  </p>
+                            <a href="https://www.bremen.de/leben-in-bremen/ukrainehilfe" class="card-button">Zur Weibseite</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="pfeil pfeil-rechts" onclick="umschalten(1)"><span>&#10095;</span></a>
+                <a class="pfeil pfeil-links" onclick="umschalten(-1)"><span>&#10094;</span></a>
+                <ol class="indikatorenliste">
+                    <li class="indikator" onclick="springZuEintrag(0)">&#8226;</li>
+                    <li class="indikator" onclick="springZuEintrag(1)">&#8226;</li>
+                    <li class="indikator" onclick="springZuEintrag(2)">&#8226;</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    </div>
+</header>
+<div class="haupt"> <img class="info" src="images/infodeu.png" alt="info"></div>
+
+<script type="text/javascript">
+    var counter = 1;
+    setInterval(function (){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+            counter = 1;
+        }
+    }, 5000);
+</script>
+<script src="main.js"></script>
+
+<footer >
+    <div class="footer-content">
+
+
+
+        <button class="button plakatbutton" type="button"><a href="">Plakat</a></button>
+        <div class="madeby">Made By: Dinara G. & Shirin E.</div>
+    </div>
+
+</footer>
+<div id="progress">
+    <span id="progress-value"><img class="arrow" src="images/arrow.png"></span>
+</div>
+</body>
+</html>
+
