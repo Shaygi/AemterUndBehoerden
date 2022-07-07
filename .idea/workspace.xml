@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ed2495d-77aa-4715-899b-cea562a09820" name="Changes" comment="neu">
-      <change afterPath="$PROJECT_DIR$/src/indexdeu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/indexrus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/infobunt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/infodeu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/infoukra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/infoukra.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.css" afterDir="false" />
-    </list>
-    <list id="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" name="Changes by dinara" comment="">
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.css" afterDir="false" />
-    </list>
+    <list default="true" id="7ed2495d-77aa-4715-899b-cea562a09820" name="Changes" comment="neu" />
+    <list id="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" name="Changes by dinara" comment="Changes by dinara" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,35 +10,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/index.html">
-      <ranges>
-        <range start1="26" end1="27" start2="26" end2="30" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="28" end1="28" start2="31" end2="32" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="35" end1="36" start2="39" end2="39" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="50" end1="51" start2="53" end2="54" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="94" end1="95" start2="97" end2="98" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="109" end1="110" start2="112" end2="113" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
-        <range start1="113" end1="116" start2="116" end2="119" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/main.css">
-      <ranges>
-        <range start1="61" end1="61" start2="61" end2="62" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="62" end1="62" start2="63" end2="72" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="86" end1="86" start2="96" end2="97" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/media.css">
-      <ranges>
-        <range start1="7" end1="7" start2="7" end2="10" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="9" end1="9" start2="12" end2="13" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="13" end1="13" start2="17" end2="19" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
-        <range start1="15" end1="16" start2="21" end2="21" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-        <range start1="100" end1="101" start2="105" end2="106" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -171,7 +129,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656961426519</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="neu">
+      <created>1657199731852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657199731852</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes by dinara">
+      <created>1657199793548</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657199793548</updated>
+    </task>
+    <task id="LOCAL-00013" summary="neu">
+      <created>1657199800275</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657199800275</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +168,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes by dinara" />
     <MESSAGE value="neu" />
     <option name="LAST_COMMIT_MESSAGE" value="neu" />
   </component>
