@@ -1,0 +1,218 @@
+Index: src/media.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@media(max-width: 1230px){\r\n    .madeby{\r\n        margin-left: 200px;\r\n    }\r\n    .plakatbutton{\r\n        margin-left:200px;\r\n    }\r\n    .logo{\r\n        width: 75px;\r\n        margin-top: -30px;\r\n        padding-bottom: 0;\r\n    }\r\n    .nav-list{\r\n        display: none;\r\n    }\r\n    .nav-button{\r\n       display: block;\r\n    }\r\n\r\n    .nav.open .nav-list{\r\n\r\n        position: fixed;\r\n        top:0;\r\n        bottom: 0;\r\n        left: 0;\r\n        right: 0;\r\n        background-color: white;\r\n        z-index: 1;\r\n        padding: 46px 30px;\r\n        display: flex;\r\n        flex-direction: column;\r\n        row-gap: 40px;\r\n\r\n    }\r\n\r\n    .nav-link{\r\n        color: #828282;\r\n    }\r\n\r\n    .nav-link:hover{\r\n        color: black;\r\n    }\r\n\r\n    .nav-button{\r\n        position: fixed;\r\n        z-index: 9;\r\n        top:46px;\r\n        right: 30px;\r\n    }\r\n\r\n    .header-nav{\r\n        margin-bottom: 50px;\r\n    }\r\n\r\n    .header-row{\r\n        flex-direction: column;\r\n        row-gap: 20px;\r\n\r\n    }\r\n    .header-content{\r\n        margin-top: 0;\r\n        padding-left: 5px;\r\n    }\r\n\r\n    .logo{\r\n       margin-top: 10px;\r\n        padding-left: 10px;\r\n    }\r\n    .card-slideshow{\r\n        margin-left: 550px;\r\n    }\r\n\r\n}\r\n\r\n.slider{\r\n}\r\n@media(max-width:700px){\r\n    .header-heading{\r\n        font-size: 34px;\r\n        line-height: 1.3;\r\n    }\r\n    .card-slideshow{\r\n        margin-left: 550px;\r\n    }\r\n    .first, .second, .third{\r\n        width: 400px;\r\n        height: 100px;\r\n    }\r\n    .indikatorenliste{\r\n        margin-left: -400px;\r\n    }\r\n\r\n    .pfeil{\r\n        font-size: 45px;\r\n        margin-top: 140px;\r\n    }\r\n    .pfeil-rechts{\r\n        margin-left: -200px;\r\n    }\r\n    .card-titel{\r\n        margin-top: -120px;\r\n    }\r\n    .card-content{\r\n       margin-left: -140px;\r\n        padding: 10rem;\r\n        transform: translateY(45%);\r\n    }\r\n    .card:hover .card-content{\r\n        transform: translateY(-55%);\r\n    }\r\n    .madeby{\r\n        margin-left: 100px;\r\n    }\r\n    .plakatbutton{\r\n        margin-left:130px;\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/media.css b/src/media.css
+--- a/src/media.css	(revision 6569a60fd8954868bcb0862a053ecdf2ab66d026)
++++ b/src/media.css	(date 1657195594877)
+@@ -18,7 +18,6 @@
+     }
+ 
+     .nav.open .nav-list{
+-
+         position: fixed;
+         top:0;
+         bottom: 0;
+@@ -101,7 +100,7 @@
+         margin-top: -120px;
+     }
+     .card-content{
+-       margin-left: -140px;
++        margin-left: -140px;
+         padding: 10rem;
+         transform: translateY(45%);
+     }
+Index: src/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Ämter & Behörden</title>\r\n    <script src=\"https://unpkg.com/boxicons@2.1.2/dist/boxicons.js\"></script>\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@100&family=Poppins:wght@400;500;600;700&display=swap\" rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"main.css\">\r\n    <link rel=\"stylesheet\" href=\"media.css\">\r\n</head>\r\n<body>\r\n\r\n<header class=\"header\">\r\n\r\n    <div class=\"container\">\r\n        <!--Header nav -->\r\n        <div class=\"header-nav\">\r\n            <img class=\"logo\" src=\"images/logo.png\" alt=\"logo\">\r\n\r\n\r\n\r\n            <nav id=\"nav\" class=\"nav open\">\r\n\r\n                <ul class=\"nav-list\">\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">додому</a></li>\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">форми</a></li>\r\n                    <li class=\"nav-item\"><a href=\"https://termin.bremen.de/termine/select2?md=50&lang=ua_UA\" class=\"nav-link\">Призначення</a></li>\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">програми</a></li>\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">консультативний</a></li>\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">телефонна книга</a></li>\r\n                    <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">контакти</a></li>\r\n\r\n                </ul>\r\n\r\n                <button id=\"nav-btn\" class=\"nav-button\">\r\n                    <img id=\"nav-btn-img\" src=\"images/nav-open.svg\" alt=\"Nav button\">\r\n                </button>\r\n            </nav>\r\n        </div>\r\n\r\n\r\n        <!--Header content -->\r\n        <div class=\"header-row\">\r\n            <div class =\"header-content\">\r\n               <h1 class =\"header-heading\">Добро пожаловать!</h1>\r\n               <p >Здесь вы найдете информацию об учреждениях и органах власти в Бремене.</p>\r\n                <button class=\"button\" type=\"button\"><a href=\"https://www.google.com/maps/d/embed?mid=1ssJFDO0nSvmtCTCqISL792GdyZB0EQQ&ehbc=2E312F\">Карта</a></button>\r\n            </div>\r\n\r\n\r\n            <div class=\"card-slideshow\">\r\n                <div class=\"card\">\r\n                    <div class=\"first\">\r\n                       <div class=\"card-content\">\r\n                           <h1 class=\"card-titel\">JobCenter</h1>\r\n                           <p class=\"card-body\">Центр зайнятості</p>\r\n                           <a href=\"https://www.jobcenter-bremen.de/ukraine/ukrainisch/\" class=\"card-button\">На веб-сайт</a>\r\n                       </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"card\">\r\n                    <div class=\"second\">\r\n                        <div class=\"card-content\">\r\n                            <h1 class=\"card-titel\">Migrationsamt</h1>\r\n                            <p class=\"card-body\">міграційне бюро</p>\r\n                            <a href=\"https://www.service.bremen.de/sixcms/detail.php?gsid=bremen128.c.1428986.de\" class=\"card-button\">На веб-сайт</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <div class=\"card\">\r\n                    <div class=\"third\">\r\n                        <div class=\"card-content\">\r\n                            <h1 class=\"card-titel\">Sozialamt</h1>\r\n                            <p class=\"card-body\">офіс добробуту</p>\r\n                            <a href=\"https://www.bremen.de/leben-in-bremen/ukrainehilfe\" class=\"card-button\">На веб-сайт</a>\r\n                        </div>\r\n                    </div>\r\n                </div>\r\n                <a class=\"pfeil pfeil-rechts\" onclick=\"umschalten(1)\"><span>&#10095;</span></a>\r\n                <a class=\"pfeil pfeil-links\" onclick=\"umschalten(-1)\"><span>&#10094;</span></a>\r\n                <ol class=\"indikatorenliste\">\r\n                    <li class=\"indikator\" onclick=\"springZuEintrag(0)\">&#8226;</li>\r\n                    <li class=\"indikator\" onclick=\"springZuEintrag(1)\">&#8226;</li>\r\n                    <li class=\"indikator\" onclick=\"springZuEintrag(2)\">&#8226;</li>\r\n                </ol>\r\n            </div>\r\n        </div>\r\n        </div>\r\n    </div>\r\n</header>\r\n<div class=\"haupt\"> <img class=\"info\" src=\"images/infobunt.png\" alt=\"info\"></div>\r\n\r\n<script type=\"text/javascript\">\r\n    var counter = 1;\r\n    setInterval(function (){\r\n        document.getElementById('radio' + counter).checked = true;\r\n        counter++;\r\n        if(counter > 4){\r\n            counter = 1;\r\n        }\r\n    }, 5000);\r\n</script>\r\n<script src=\"main.js\"></script>\r\n\r\n<footer>\r\n    <button class=\"button plakatbutton\" type=\"button\"><a href=\"\">Plakat</a></button>\r\n    <div class=\"madeby\">Made By: Dinara G. & Shirin E.</div>\r\n</footer>\r\n<div id=\"progress\">\r\n    <span id=\"progress-value\"><img class=\"arrow\" src=\"images/arrow.png\"></span>\r\n</div>\r\n</body>\r\n</html>\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/index.html b/src/index.html
+--- a/src/index.html	(revision 6569a60fd8954868bcb0862a053ecdf2ab66d026)
++++ b/src/index.html	(date 1657197116326)
+@@ -48,7 +48,7 @@
+             <div class ="header-content">
+                <h1 class ="header-heading">Добро пожаловать!</h1>
+                <p >Здесь вы найдете информацию об учреждениях и органах власти в Бремене.</p>
+-                <button class="button" type="button"><a href="https://www.google.com/maps/d/embed?mid=1ssJFDO0nSvmtCTCqISL792GdyZB0EQQ&ehbc=2E312F">Карта</a></button>
++                <button class="button" type="button"><a href="https://www.google.com/maps/d/embed?mid=1ssJFDO0nSvmtCTCqISL792GdyZB0EQQ&ehbc=2E312F">мапа</a></button>
+             </div>
+ 
+ 
+@@ -92,7 +92,7 @@
+         </div>
+     </div>
+ </header>
+-<div class="haupt"> <img class="info" src="images/infobunt.png" alt="info"></div>
++<div class="haupt"> <img class="info" src="images/infoukra.png" alt="info"></div>
+ 
+ <script type="text/javascript">
+     var counter = 1;
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7ed2495d-77aa-4715-899b-cea562a09820\" name=\"Changes\" comment=\"neu\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/images/info.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/images/info2.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/images/infoblau.png\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/images/infobunt.png\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/images/infobunt.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2BIuyatY8WLF5ofInuRDQf18GwI\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/shiri/IdeaProjects/AemterUndBehoerden/src/images&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\shiri\\IdeaProjects\\AemterUndBehoerden\\src\\images\" />\r\n      <recent name=\"C:\\Users\\shiri\\IdeaProjects\\AemterUndBehoerden\\src\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7ed2495d-77aa-4715-899b-cea562a09820\" name=\"Changes\" comment=\"\" />\r\n      <created>1656606179178</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1656606179178</updated>\r\n      <workItem from=\"1656606180444\" duration=\"462000\" />\r\n      <workItem from=\"1656606659022\" duration=\"90000\" />\r\n      <workItem from=\"1656606759280\" duration=\"7000\" />\r\n      <workItem from=\"1656661083490\" duration=\"886000\" />\r\n      <workItem from=\"1656665469568\" duration=\"4018000\" />\r\n      <workItem from=\"1656694454299\" duration=\"1438000\" />\r\n      <workItem from=\"1656702723799\" duration=\"332000\" />\r\n      <workItem from=\"1656771847064\" duration=\"1050000\" />\r\n      <workItem from=\"1656794304957\" duration=\"113000\" />\r\n      <workItem from=\"1656927224646\" duration=\"1200000\" />\r\n      <workItem from=\"1656942191049\" duration=\"49000\" />\r\n      <workItem from=\"1656961026257\" duration=\"437000\" />\r\n      <workItem from=\"1657023990825\" duration=\"274000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"neu\">\r\n      <created>1656606623134</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656606623134</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"neu\">\r\n      <created>1656666814866</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656666814866</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"neu\">\r\n      <created>1656670170226</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656670170226</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"neu\">\r\n      <created>1656694488349</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656694488349</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"neu\">\r\n      <created>1656694759294</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656694759294</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"neu\">\r\n      <created>1656694855489</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656694855489</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"neu\">\r\n      <created>1656695844065</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656695844065</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"neu\">\r\n      <created>1656703035769</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656703035769</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"neu\">\r\n      <created>1656794326942</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656794326942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"neu\">\r\n      <created>1656961426519</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1656961426519</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"11\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"neu\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"neu\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6569a60fd8954868bcb0862a053ecdf2ab66d026)
++++ b/.idea/workspace.xml	(date 1657197157837)
+@@ -2,20 +2,51 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="7ed2495d-77aa-4715-899b-cea562a09820" name="Changes" comment="neu">
++      <change afterPath="$PROJECT_DIR$/src/indexdeu.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/indexrus.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/images/info.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/images/info2.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/images/infoblau.png" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/images/infobunt.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/infobunt.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/images/infobunt.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/images/infoukra.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/infoukra.png" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.css" afterDir="false" />
++    </list>
++    <list id="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" name="Changes by dinara" comment="">
++      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/media.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="HTML File" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="LineStatusTrackerManager">
++    <file path="$PROJECT_DIR$/src/index.html">
++      <ranges>
++        <range start1="50" end1="51" start2="50" end2="51" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
++        <range start1="94" end1="95" start2="94" end2="95" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
++        <range start1="109" end1="109" start2="109" end2="110" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
++        <range start1="111" end1="111" start2="112" end2="113" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
++      </ranges>
++    </file>
++    <file path="$PROJECT_DIR$/src/media.css">
++      <ranges>
++        <range start1="1" end1="7" start2="1" end2="2" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
++        <range start1="20" end1="21" start2="15" end2="15" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
++        <range start1="103" end1="104" start2="97" end2="98" changelist="7ed2495d-77aa-4715-899b-cea562a09820" />
++        <range start1="110" end1="116" start2="104" end2="105" changelist="7a4dfa7b-9dca-4f75-b612-dd2f10a97f91" />
++      </ranges>
++    </file>
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+@@ -26,17 +57,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shiri/IdeaProjects/AemterUndBehoerden/src/images&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/shiri/IdeaProjects/AemterUndBehoerden/src/images",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\shiri\IdeaProjects\AemterUndBehoerden\src\images" />
+@@ -63,7 +95,8 @@
+       <workItem from="1656927224646" duration="1200000" />
+       <workItem from="1656942191049" duration="49000" />
+       <workItem from="1656961026257" duration="437000" />
+-      <workItem from="1657023990825" duration="274000" />
++      <workItem from="1657023990825" duration="403000" />
++      <workItem from="1657192130155" duration="3425000" />
+     </task>
+     <task id="LOCAL-00001" summary="neu">
+       <created>1656606623134</created>
+@@ -135,7 +168,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1656961426519</updated>
+     </task>
+-    <option name="localTasksCounter" value="11" />
++    <task id="LOCAL-00011" summary="neu">
++      <created>1657024276137</created>
++      <option name="number" value="00011" />
++      <option name="presentableId" value="LOCAL-00011" />
++      <option name="project" value="LOCAL" />
++      <updated>1657024276137</updated>
++    </task>
++    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: src/indexrus.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/indexrus.html b/src/indexrus.html
+new file mode 100644
+--- /dev/null	(date 1657197116320)
++++ b/src/indexrus.html	(date 1657197116320)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
+Index: src/indexdeu.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/indexdeu.html b/src/indexdeu.html
+new file mode 100644
+--- /dev/null	(date 1657197116331)
++++ b/src/indexdeu.html	(date 1657197116331)
+@@ -0,0 +1,10 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Title</title>
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file
