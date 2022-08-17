@@ -145,12 +145,10 @@ footer{
 
 .nav-button{
     display: none;
-
 }
 
 .nav-link{
     color: white;
-
 }
 
 /*header-content*/
@@ -193,6 +191,9 @@ footer{
     margin-left: -550px;
     opacity: 0;
 
+}
+.plakatbutton{
+    color: inherit;
 }
 .indikatorenliste{
     position: absolute;
